@@ -26,7 +26,7 @@ SECRET_KEY = fetch('secret_key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'localhost', '.localhost']
+ALLOWED_HOSTS = ['brewry.herokuapp.com', '*', 'localhost', '.localhost']
 
 
 # Application definition
